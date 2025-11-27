@@ -26,7 +26,7 @@
 - 环境变量：`MUSTER_USERNAME`、`MUSTER_PASSWORD`（必填）；`MUSTER_DOWNLOAD_PATH`（可选，下载时默认选择的路径，默认 `~/Downloads`）。
 
 ## 安装
-1) 使用uv安装 [uv](https://docs.astral.sh/uv/)（快速的 Python 包管理工具）。
+1) 安装 [uv](https://docs.astral.sh/uv/)（快速的 Python 包管理工具）。
 2) 克隆仓库并安装依赖：
 ```bash
 git clone https://github.com/Cosmostima/MUSTer_MCP
