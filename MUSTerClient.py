@@ -63,6 +63,22 @@ class MUSTerClientWithHead:
         self.logged_in = False
         self.setup_driver()
 
+    def _ensure_driver(self):
+        """Ensure the headed driver is alive; recreate if it was closed or crashed."""
+        alive = False
+        if self.driver:
+            try:
+                _ = self.driver.title  # lightweight liveness check
+                if getattr(self.driver, "session_id", None):
+                    alive = True
+            except WebDriverException:
+                self.driver = None
+                self.logged_in = False
+
+        if not alive:
+            self.setup_driver()
+            self.logged_in = False
+
     def setup_driver(self):        
         chrome_options = Options()
         chrome_options.add_argument("--no-sandbox")
