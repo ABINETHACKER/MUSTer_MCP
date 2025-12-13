@@ -142,7 +142,7 @@ class MUSTerClient:
         self.lock = threading.Lock()
 
         # Prewarm a session on startup to speed up first call.
-        self.start_prewarm()
+        # self.start_prewarm()
 
     def _ensure_driver(self):
         """Ensure driver exists and is alive; recreate if needed."""
